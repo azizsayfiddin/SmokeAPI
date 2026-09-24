@@ -8,8 +8,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ Linux, Windows ]
-        bitness: [ 32, 64 ]
+        os: [ Windows ]
+        bitness: [ 64 ]
 
     uses: acidicoala/KoalaBox/.github/workflows/build-cmake.yml@master
     with:
