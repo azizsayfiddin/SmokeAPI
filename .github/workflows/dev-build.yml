@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - '**' # This prevents dev builds on tag pushes
+  workflow_dispatch:
 
 jobs:
   dev-build:
